@@ -1,8 +1,10 @@
-baseurl      = "localhost"
+baseurl      = ""
+relativeurls = true
 title        = "Ron Williams"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
+googleAnalytics = "UA-55432966-1"
 
 # permits use of iframe in posts.
 [markup.goldmark.renderer] 
@@ -24,12 +26,13 @@ paginate     = 10
   enableSharingButtons = true
 
   # Metadata mostly used in document's head
-  description = "Since 2004, I've empower government agencies, non-profits, companies, and individuals to engage their audiences through cost effective IT platforms."
+  description = "Since 2004, I've empowered government agencies, non-profits, companies, and individuals to engage their audiences through cost effective IT platforms."
   keywords = "Ron Williams, cloud, DevOps, government, web development"
   images = [""]
 
   # Default theme "light" or "dark"
   defaultTheme = "light"
+  
 
 [taxonomies]
     category = "blog"
@@ -75,6 +78,11 @@ paginate     = 10
     name = "linkedin"
     url  = "https://www.linkedin.com/in/ronwilliamsio/"
 
+  [params.portrait]
+    path     = "img/ron-williams.jpeg"
+    alt      = "Portrait of Ron Williams"
+    maxWidth = "175px"
+
 [deployment]
 # By default, files are uploaded in an arbitrary order.
 # Files that match the regular expressions in the "Order" list
@@ -91,7 +99,7 @@ name = "s3"
 
 # S3; see https://gocloud.dev/howto/blob/#s3
 # For S3-compatible endpoints, see https://gocloud.dev/howto/blob/#s3-compatible
-URL = "s3://ronwilliamsio-public/?region=us-east-1"
+URL = "s3://ronwilliams.io/?region=us-east-1"
 
 # Azure Blob Storage; see https://gocloud.dev/howto/blob/#azure
 # URL = "azblob://$web"
