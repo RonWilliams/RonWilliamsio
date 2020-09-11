@@ -1,0 +1,76 @@
+baseurl      = "localhost"
+title        = "Ron Williams"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+paginate     = 10
+
+# permits use of iframe in posts.
+[markup.goldmark.renderer] 
+  unsafe= true
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Subtitle for home
+  homeSubtitle = "Leading Government Cloud / DevOps through Business Driven IT"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you linke
+  enableSharingButtons = true
+
+  # Metadata mostly used in document's head
+  description = "Since 2004, I've empower government agencies, non-profits, companies, and individuals to engage their audiences through cost effective IT platforms."
+  keywords = "Ron Williams, cloud, DevOps, government, web development"
+  images = [""]
+
+  # Default theme "light" or "dark"
+  defaultTheme = "light"
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "Ron Williams"
+    subtitle = "DevOps / Cloud Architect Washington DC"
+    keywords = ""
+    copyright = 'Ron Williams'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "Ron Williams"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
+
+  # Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/ron_williams"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:hello@ronwilliams.io"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/ronwilliams"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/ronwilliamsio/"
