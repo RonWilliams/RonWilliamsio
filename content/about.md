@@ -1,6 +1,6 @@
 +++
 title = "About"
-aliases = ["about-us","bio","contact"]
+aliases = ["about-us","bio","contact","about"]
 +++
 
 Originally from the Eastern Shore of Maryland, I spent 7 years in the Boulder, CO area, and recently moved back to the DC Metro Area. 
