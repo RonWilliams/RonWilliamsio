@@ -1,4 +1,4 @@
-baseurl      = ""
+baseurl      = "https://ronwilliams.io/"
 relativeurls = true
 title        = "Ron Williams"
 languageCode = "en-us"
@@ -60,6 +60,11 @@ googleAnalytics = "UA-55432966-1"
     identifier = "blog"
     name       = "Blog"
     url        = "/posts"
+
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
 
   # Social icons
   [[params.social]]
