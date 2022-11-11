@@ -4,7 +4,6 @@ title        = "Ron Williams"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
-googleAnalytics = "UA-55432966-1"
 
 # permits use of iframe in posts.
 [markup.goldmark.renderer] 
